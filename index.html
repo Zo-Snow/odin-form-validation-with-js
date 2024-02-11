@@ -13,26 +13,35 @@
     />
   </head>
   <body>
-    <form action="">
-      <div>
+    <form action="" novalidate>
+      <div class="col">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" />
+        <div class="error"></div>
       </div>
-      <div>
+      <div class="col">
         <label for="country">Country</label>
         <input type="text" name="country" id="country" />
+        <div class="error"></div>
       </div>
-      <div>
+      <div class="col">
         <label for="zip">Zip Code</label>
         <input type="text" name="zip" id="zip" maxlength="5" />
+        <div class="error"></div>
       </div>
-      <div>
+      <div class="col">
         <label for="password">Password</label>
         <input type="password" name="password" id="password" />
+        <div class="error"></div>
       </div>
-      <div>
+      <div class="col">
         <label for="c-password">Confirm Password</label>
         <input type="c-password" name="c-password" id="c-password" />
+        <div class="error"></div>
+      </div>
+      <div class="col">
+        <div class="sucess"></div>
+        <button type="submit">Submit</button>
       </div>
     </form>
 
