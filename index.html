@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation With Js</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country" />
+      </div>
+      <div>
+        <label for="zip">Zip Code</label>
+        <input type="text" name="zip" id="zip" maxlength="5" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="c-password">Confirm Password</label>
+        <input type="c-password" name="c-password" id="c-password" />
+      </div>
+    </form>
+
+    <script src="./index.js" charset="utf-8"></script>
+  </body>
+</html>
