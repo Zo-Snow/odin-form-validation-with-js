@@ -3,3 +3,4 @@
 A little sign up form made for an odin project assignment!
 
 This form uses only javascript to perform client side validation.
+It has live inline validation!
